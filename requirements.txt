@@ -1,28 +1,10 @@
-# Core dependencies for BioStats-ISO
-numpy>=1.24.0
-pandas>=1.5.0
-scipy>=1.10.0
-matplotlib>=3.6.0
-seaborn>=0.12.0
-
-# Excel support
-openpyxl>=3.1.0
-xlsxwriter>=3.1.0
-
-# Web interface (required for MVP)
-streamlit>=1.28.0
-
-# Interactive visualizations (required for MVP)
-plotly>=5.17.0
-
-# PDF generation (required for MVP reports)
-reportlab>=4.0.7
-
-# Optional: Jupyter support
-jupyterlab>=4.0.0
-notebook>=7.0.0
-ipywidgets>=8.0.0
-
-# Testing
-pytest>=7.4.0
-pytest-cov>=4.1.0
+numpy==1.24.0
+pandas==1.5.0
+scipy==1.10.0
+matplotlib==3.6.0
+seaborn==0.12.0
+openpyxl==3.1.0
+xlsxwriter==3.1.0
+streamlit==1.28.0
+plotly==5.17.0
+reportlab==4.0.7
