@@ -1,0 +1,8 @@
+  # Installer dépendances
+  pip install -r requirements.txt
+
+  # Lancer
+  streamlit run streamlit_app_RAG.py
+
+  Les dossiers data/ seront créés automatiquement au premier lancement avec les bases de données SQLite et l'index
+  vectoriel RAG.
